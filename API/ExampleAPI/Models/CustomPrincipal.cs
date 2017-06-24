@@ -5,10 +5,10 @@ namespace ExampleAPI.Models
 {
     public class CustomPrincipal : ICustomPrincipal
     {
-        public CustomPrincipal(string token)
+        public CustomPrincipal(string username)
         {
             // mocking token info    
-            Username = "MikeF";
+            Username = username;
             UserId = Guid.NewGuid();
             Identity = new GenericIdentity(Username);
         }

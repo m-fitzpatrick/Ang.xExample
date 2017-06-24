@@ -3,16 +3,18 @@ using ExampleAPI.Models;
 
 namespace ExampleAPI.Controllers
 {
+    [RoutePrefix("api/account")]
     public class AccountController : ApiController
     {
+        [Route("login")]
         public IHttpActionResult Login(LoginModel model)
         {
-            if (model != null && !string.IsNullOrEmpty(model.UserName) && !string.IsNullOrEmpty(model.Password))
+            if (model != null && !string.IsNullOrEmpty(model.Username) && !string.IsNullOrEmpty(model.Password))
             {
                 // construct and return a token here
                 return Ok(new
                           {
-                              message = "You got logged in"
+                              token = new CustomPrincipal(model.Username)
                           });
             }
 

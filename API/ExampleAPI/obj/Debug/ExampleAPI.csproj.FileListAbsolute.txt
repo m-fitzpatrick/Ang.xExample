@@ -39,3 +39,6 @@ C:\ABCSOhio\Ang.xExample\API\ExampleAPI\bin\System.Web.Http.WebHost.xml
 C:\ABCSOhio\Ang.xExample\API\ExampleAPI\obj\Debug\ExampleAPI.csprojResolveAssemblyReference.cache
 C:\ABCSOhio\Ang.xExample\API\ExampleAPI\obj\Debug\ExampleAPI.dll
 C:\ABCSOhio\Ang.xExample\API\ExampleAPI\obj\Debug\ExampleAPI.pdb
+C:\ABCSOhio\Ang.xExample\API\ExampleAPI\bin\System.Web.Cors.dll
+C:\ABCSOhio\Ang.xExample\API\ExampleAPI\bin\System.Web.Http.Cors.dll
+C:\ABCSOhio\Ang.xExample\API\ExampleAPI\bin\System.Web.Http.Cors.xml

@@ -1,0 +1,6 @@
+p.home span {
+    display: inline-block;
+    padding: 5px;
+    background-color: yellow;
+    border: black solid 1px;
+}
